@@ -1,0 +1,9 @@
+# we introduce product partition from android_q, q_upgrade product will have
+# symbolic link "/product" --> "/system/product"
+service mot.tcmd-hal-1-0 /product/bin/hw/motorola.hardware.tcmd@1.0-service
+    interface motorola.hardware.tcmd@1.0::IMotTcmd default
+    class hal
+    user system
+    group system vendor_prod_persist
+    disabled
+    oneshot

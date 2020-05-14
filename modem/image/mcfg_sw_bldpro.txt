@@ -1,0 +1,15 @@
+#============================================================================
+#  Name:                                                                     
+#    mcfg_sw_bldpro.txt 
+#
+#  Description:                                                              
+#    None 
+#                                                                            
+# Copyright (c) 2019 by QUALCOMM Technologies, Incorporated.  All Rights Reserved.        
+#============================================================================
+#                                                                            
+# *** AUTO GENERATED FILE - DO NOT EDIT                                      
+#                                                                            
+# GENERATED: Thu Aug 15 13:58:10 2019 
+#============================================================================
+./modem_proc/build/ms/bin/sdx55.rmtefs.prod/configs/mcfg_sw/generic/common/W_One/Commercial/mcfg_sw.mbn

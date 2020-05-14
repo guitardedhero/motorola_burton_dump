@@ -1,0 +1,4 @@
+mcfg_hw/generic/common/saipan/standalo/la/ss/mcfg_hw.mbn
+mcfg_hw/generic/common/saipan/standalo/la/dsds/mcfg_hw.mbn
+mcfg_hw/generic/common/sdx55/fusion/la/dsds/mcfg_hw.mbn
+mcfg_hw/generic/common/sdx55/fusion/la/ss/mcfg_hw.mbn
