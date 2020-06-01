@@ -1,0 +1,19 @@
+# Charge only mode configuration
+import /vendor/etc/init/hw/init.mmi.charge_only.rc
+
+on post-fs
+    # MOT_LED_CALIBRATION
+    chown camera /mnt/vendor/persist/camera/mot_ledcal
+
+on early-init
+    start ufs_ffu
+    exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules exfat
+
+service ufs_ffu /vendor/bin/ufs_ffu.sh
+    user root
+    class core
+    oneshot
+    disabled
+
+on property:vendor.ufs_need_ffu=1
+    setprop sys.dbg.ufs_ffu_start 1

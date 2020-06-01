@@ -1,0 +1,1 @@
+--filemsm=/vendor/etc/diag_mdlog/Wlan_V2.cfg --filemdm=/vendor/etc/diag_mdlog/Connection_Issues_V13.cfg --output=/data/vendor/diag_mdlog/logs --optimized --qmdl2_v2 --size=50 --number=4 --sync=0

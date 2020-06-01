@@ -1,0 +1,93 @@
+{
+  "config":
+  {
+    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK"],
+    "soc_id": ["356"],
+    "panel": ["boe_lsi_667_1080p_dsc_cmd"],
+    "panel_ver": ["0xb3"]
+  },
+  "tcs3708_platform":{
+    "owner": "sns_tcs3708",
+    ".prox":{
+      "owner": "sns_tcs3708",
+      ".fac_cal":{
+        "owner": "sns_tcs3708",
+        "near_threshold":{ "type": "flt", "ver": "10101010",
+          "data": "70.0"
+        },
+        "far_threshold":{ "type": "flt", "ver": "10101010",
+          "data": "40.0"
+        }
+      },
+      ".def_config":{
+        "owner": "sns_tcs3708",
+        "ptime":{ "type": "flt", "ver": "10101010",
+          "data": "120.0"
+        },
+        "ppulse_len":{ "type": "flt", "ver": "10101010",
+          "data": "32.0"
+        },
+        "ppulse_len16x":{ "type": "flt", "ver": "10101010",
+          "data": "0"
+        },
+        "ppulse":{ "type": "flt", "ver": "10101010",
+          "data": "1.0"
+        },
+        "pgain":{ "type": "flt", "ver": "10101010",
+          "data": "1.0"
+        },
+        "pldrive":{ "type": "flt", "ver": "10101010",
+          "data": "110.0"
+        },
+        "ppers":{ "type": "flt", "ver": "10101010",
+          "data": "1.0"
+        },
+        "pBinSearch":{ "type": "flt", "ver": "10101010",
+          "data": "15.0"
+        },
+        "panel":{ "type": "flt", "ver": "10101010",
+          "data": "3"
+        }
+      }
+    },
+    ".coefficient":{
+      "owner": "sns_tcs3708",
+      "0":{ "type": "flt", "ver": "10101010",
+        "data": "0.63"
+      },
+      "1":{ "type": "flt", "ver": "10101010",
+        "data": "3.599"
+      },
+      "2":{ "type": "flt", "ver": "10101010",
+        "data": "-3.317"
+      },
+      "3":{ "type": "flt", "ver": "10101010",
+        "data": "3.327"
+      },
+      "4":{ "type": "flt", "ver": "10101010",
+        "data": "-3.564"
+      },
+      "5":{ "type": "flt", "ver": "10101010",
+        "data": "0.63"
+      },
+      "6":{ "type": "flt", "ver": "10101010",
+        "data": "1.0"
+      },
+      "7":{ "type": "flt", "ver": "10101010",
+        "data": "-0.2"
+      },
+      "8":{ "type": "flt", "ver": "10101010",
+        "data": "0.0"
+      },
+      "9":{ "type": "flt", "ver": "10101010",
+        "data": "0.0"
+      },
+      "10":{ "type": "flt", "ver": "10101010",
+        "data": "600.0"
+      },
+      "11":{ "type": "flt", "ver": "10101010",
+        "data": "0.0"
+      }
+    }
+  }
+}

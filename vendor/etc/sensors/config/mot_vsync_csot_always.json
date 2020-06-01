@@ -1,0 +1,23 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "Dragon", "Surf"],
+    "soc_id": ["356"],
+    "panel": ["csot_gdx_667_1080p_dsc_cmd", "csot_lsi_667_1080p_dsc_cmd"]
+  },
+  "mot_vsync":{
+    "owner": "mot_vsync",
+    ".params":{
+      "owner": "mot_vsync",
+      "vsync_gpio_delay_60Hz_us":{ "type": "int", "ver": "10101010",
+        "data": "5050"
+      },
+      "vsync_gpio_delay_90Hz_us":{ "type": "int", "ver": "10101010",
+        "data": "10900"
+      },
+      "vsync_trig_cnt":{ "type": "int", "ver": "10101010",
+        "data": "7"
+      }
+    }
+  }
+}

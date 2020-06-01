@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ **
+ * Copyright (C) 2020 Motorola Mobility, Inc.
+ * All Rights Reserved
+ *
+ * The contents of this file are Motorola Confidential Restricted (MCR).
+ *
+-->
+
+<!-- This is the feature indicating that the device support power sharing -->
+<permissions>
+    <feature name="com.motorola.hardware.wireless_power_share" />
+</permissions>
