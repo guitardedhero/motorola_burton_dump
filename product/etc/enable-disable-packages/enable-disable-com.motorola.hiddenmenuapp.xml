@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="com.motorola.hiddenmenuapp" carrierBased="true" default_action="disable">
+        <criteria action="enable" channel="retus;tmo" mccmnc="310000"/>
+        <criteria action="enable" channel="retus;tmo" mccmnc="310120"/>
+        <criteria action="enable" channel="retus;tmo" mccmnc="312530"/>
+        <criteria action="enable" channel="sprint" />
+        <criteria action="enable" channel="boost" />
+    </package-disable-enable-criteria>
+</enable-disable-package>
